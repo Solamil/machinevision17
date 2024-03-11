@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cz.vision.machinevision2017.fragments.ContentFragment">
+
+    <fragment
+        android:id="@+id/fragment_content"
+        android:name="cz.vision.machinevision2017.fragments.ObjectFragment"
+        android:layout_width="match_parent"
+
+        android:layout_height="575dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/button_back"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="3dp"
+        android:layout_marginStart="3dp"
+        android:background="@drawable/custom_button"
+        android:src="@drawable/ic_keyboard_arrow_left_black_18dp" />
+
+</RelativeLayout>

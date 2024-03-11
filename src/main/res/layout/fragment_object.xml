@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cz.vision.machinevision2017.fragments.ObjectFragment">
+
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:text="TITLE:"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textView"
+
+        android:id="@+id/title_text"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="167dp"
+        android:text="DESCRIPTION:"
+        android:textStyle="bold"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/description_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="22dp" />
+
+</RelativeLayout>
